@@ -1,8 +1,10 @@
 import random
+
 hoeveel = input("Hoeveel dobbelstenen wilt u rollen?")
 repeat = "Y"
 
 while repeat == "Y":
+
     print("Het resultaat:")
     print(random.randint(1,6))
 
